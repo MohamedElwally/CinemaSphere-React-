@@ -1,0 +1,10 @@
+#movies {
+  padding-top: 4rem;
+}
+#movies form input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  height: 2rem;
+  border-radius: 5px;
+}

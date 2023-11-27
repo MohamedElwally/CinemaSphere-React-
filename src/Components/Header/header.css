@@ -1,0 +1,37 @@
+nav {
+  background-color: white !important;
+}
+nav svg {
+  color: #000;
+}
+.header_logo {
+  width: 8.4375rem;
+}
+
+.header_logo img {
+  width: 100%;
+}
+
+.header_link {
+  color: #0000009e;
+  text-decoration: none;
+  padding: 0.7rem;
+  font-weight: 600;
+}
+
+.header_link.active {
+  color: #000;
+}
+
+.header_list_container {
+  padding-left: 1rem;
+}
+
+@media (max-width: 769px) {
+  .header_link {
+    font-size: 12px;
+  }
+  .header_logo {
+    width: 6.4375rem;
+  }
+}
